@@ -1,4 +1,4 @@
-package com.rapifarma.service.impl;
+package com.hampcode.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.rapifarma.exception.ResourceNotFoundException;
-import com.rapifarma.model.entity.Category;
-import com.rapifarma.model.repository.CategoryRepository;
-import com.rapifarma.service.CategoryService;
+import com.hampcode.exception.ResourceNotFoundException;
+import com.hampcode.model.entity.Category;
+import com.hampcode.model.repository.CategoryRepository;
+import com.hampcode.service.CategoryService;
 
 @Service
 public class CategoryServiceImpl implements CategoryService{

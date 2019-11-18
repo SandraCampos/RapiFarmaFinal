@@ -12,10 +12,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.rapifarma.exception.ResourceNotFoundException;
-import com.rapifarma.model.entity.Product;
-import com.rapifarma.model.repository.ProductRepository;
-import com.rapifarma.service.ProductService;
+import com.hampcode.exception.ResourceNotFoundException;
+import com.hampcode.model.entity.Product;
+import com.hampcode.model.repository.ProductRepository;
+import com.hampcode.service.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService{

@@ -1,4 +1,4 @@
-package com.rapifarma.common;
+package com.hampcode.common;
 
 
 import java.util.Optional;
@@ -9,8 +9,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.rapifarma.model.entity.Product;
-import com.rapifarma.service.ProductService;
+import com.hampcode.model.entity.Product;
+import com.hampcode.service.ProductService;
 
 @Component
 public class PageInitPaginationProduct {

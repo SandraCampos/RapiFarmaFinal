@@ -1,4 +1,4 @@
-package com.rapifarma.model.entity;
+package com.hampcode.model.entity;
 
 import java.util.List;
 

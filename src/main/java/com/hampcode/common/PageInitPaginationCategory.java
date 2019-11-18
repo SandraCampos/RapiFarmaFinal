@@ -1,4 +1,4 @@
-package com.rapifarma.common;
+package com.hampcode.common;
 
 import java.util.Optional;
 
@@ -8,8 +8,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.rapifarma.model.entity.Category;
-import com.rapifarma.service.CategoryService;
+import com.hampcode.model.entity.Category;
+import com.hampcode.service.CategoryService;
 
 @Component
 public class PageInitPaginationCategory {

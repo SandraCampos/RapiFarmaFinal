@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
-import com.rapifarma.model.entity.Product;
+import com.hampcode.model.entity.Product;
 
 @Repository
 public interface ProductRepository extends PagingAndSortingRepository<Product, Long>{

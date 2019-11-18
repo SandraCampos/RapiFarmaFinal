@@ -1,4 +1,4 @@
-package com.rapifarma.model.entity;
+package com.hampcode.model.entity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,18 +28,18 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Size(max = 100, message = "El nombre debe contener a lo más 100 caracteres")
+	@Size(max = 100, message = "El nombre debe contener a lo mï¿½s 100 caracteres")
 	@NotEmpty(message = "Ingrese nombre del producto")
 	@Column(name = "name", nullable = false, length = 100)
 	private String name;
 	
-	@Size(max = 20, message = "La unidad de medidad debe contener a lo más 20 caracteres")
+	@Size(max = 20, message = "La unidad de medidad debe contener a lo mï¿½s 20 caracteres")
 	@NotEmpty(message = "Ingrese unidad de medida")
 	@Column(name = "unit", nullable = false, length = 20)
 	private String unit;
 	
-	@Size(max = 50, message = "El nombre de contener a lo más 50 caracteres")
-	@NotEmpty(message = "Ingrese la ubicación del producto")
+	@Size(max = 50, message = "El nombre de contener a lo mï¿½s 50 caracteres")
+	@NotEmpty(message = "Ingrese la ubicaciï¿½n del producto")
 	@Column(name = "location", nullable = false, length = 50)
 	private String location;
 	
